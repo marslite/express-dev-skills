@@ -1,11 +1,10 @@
 const skills = [
-    {skilliD: 'Skill 1', skillName: 'HTML' },
-    {skilliD: 'Skill 2', skillName: 'CSS' },
-    {skilliD: 'Skill 3', skillName: 'JavaScript' },
-    {skilliD: 'Skill 4', skillName: 'Python' },
-    {skilliD: 'Skill 1', skillName: 'React.js' },
-    {skilliD: 'Skill 1', skillName: 'Express.js' },
-    {skilliD: 'Skill 1', skillName: 'Node.js' }
+    {skilliD: '1', skillName: 'HTML', skills: 'HTML5, WebGl'  },
+    {skilliD: '2', skillName: 'CSS', skills: 'CSS Sprite, Svelte' },
+    {skilliD: '3', skillName: 'JavaScript', skills: 'ES6' },
+    {skilliD: '4', skillName: 'Python', skills: 'Turtle.py' },
+    {skilliD: '5', skillName: 'Frontend', skills: 'React.js, Angular.js, Vue.js' },
+    {skilliD: '6', skillName: 'Backend', skills: 'Express.js, Node.js, Java Spring' }
 ]
 
 

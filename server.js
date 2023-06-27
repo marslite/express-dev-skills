@@ -23,6 +23,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //Mounting in the middleware
 app.use('/', indexRouter);
+//For router don't ever export it with {}
 app.use('/skills', skillsRouter);
 
 // catch 404 and forward to error handler
