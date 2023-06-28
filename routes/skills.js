@@ -14,6 +14,12 @@ router.get('/:id', skillsCtrl.show);
 //Create a route 
 router.post('/', skillsCtrl.create);
 
+//Create a delete route
+router.delete('/:id', skillsCtrl.deleteFun);
+
 
 
 module.exports = router;
+
+
+// localhost:3000/skills/1

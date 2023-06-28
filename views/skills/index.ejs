@@ -11,14 +11,19 @@
     
     <form action="/skills" method="POST">
         <input type="text" name="skillName" placeholder="Insert your Skill here">
-        <button>Add Skill</button>
-
+        <button>Add Skill abc</button>        
     </form>
+
+
+
 <ul>
     <% skills.forEach(function(s){ %>
 
         <li>
-            <a href="/skills/<%= s.skilliD %>"> <%= s.skillName %>  </a>
+            <a href="/skills/<%= s.skilliD %>"> <%= s.skillName %>   </a>
+            <form action="/skills/<%= s.skilliD %>?_method=DELETE" method="POST">
+                <button type="submit">X</button>
+            </form>
         </li>
 
    <% }); %>
