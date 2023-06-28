@@ -11,7 +11,8 @@ router.get('/', skillsCtrl.index);
 //GET /skills/:id
 router.get('/:id', skillsCtrl.show);
 
-
+//Create a route 
+router.post('/', skillsCtrl.create);
 
 
 

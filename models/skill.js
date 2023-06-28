@@ -16,7 +16,19 @@ function getAll(){
     return skills;
 }
 
+function create(identity){
+    console.log('From the MODEL VIEW create() function I got here')
+    identity.skilliD = Date.now() % 100;
+    identity.skills = 'edit edit'
+    console.log("Data about to get push onto skills object --->", identity);
+    console.log("Specific data tht you want to display ---->", identity.skillName);
+    skills.push(identity);
+
+}
+
 module.exports = {
     getOne,
-    getAll
+    getAll,
+    create
 };
+
